@@ -1,5 +1,5 @@
 from bottle import route,run,response,request,static_file
-from LINEBASE_MESSAGING import LINE,HookExecuter,Event,Message,Command
+from LINE_Messaging import LINE,HookExecuter,Event,Message,Command
 
 class Events(object):
     @Event("message")
